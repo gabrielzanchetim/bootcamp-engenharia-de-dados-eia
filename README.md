@@ -12,8 +12,6 @@ O bootcamp simula um cenário onde você assume o papel de um **Engenheiro de Da
 > - **Vendas por vendedor**
 > - **Análise temporal**"
 
-O desafio do bootcamp é construir um pipeline de dados que permita extrair e processar essas informações para que o time de vendas possa tomar decisões estratégicas baseadas em dados.
-
 ## Análise exploratória dos dados
 A primeira etapa do projeto foi a análise exploratória dos dados no **PostgreSQL**, permitindo entender a estrutura das tabelas, a integridade dos dados e possíveis padrões.
 
