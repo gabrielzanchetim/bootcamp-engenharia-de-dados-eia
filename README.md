@@ -12,6 +12,18 @@ O bootcamp simula um cenário onde você assume o papel de um **Engenheiro de Da
 > - **Vendas por vendedor**
 > - **Análise temporal**"
 
+## Arquitetura da proposta da solução
+Para atender à demanda do diretor e transformar os dados em insights acionáveis, seguimos um fluxo estruturado de processamento de dados. A arquitetura  proposta para solução é:
+1. **Extração**: Os dados são coletados do banco relacional **PostgreSQL**.
+2. **Carga na camada Stage**: Utilizamos **Apache Airflow** para mover os dados para o **Snowflake**.
+3. **Transformação**: Com o **DBT**, refinamos os dados na camada **Analytics** do Snowflake.
+4. **Visualização**: O **Google Looker Studio** exibe os resultados em dashboards interativos.
+
+A imagem abaixo ilustra esse fluxo:
+![Arquitetura da Solução](./assets/images/arquitetura.png)
+
+Esse é um processo básico de ELT.
+
 ## Análise exploratória dos dados
 A primeira etapa do projeto foi a análise exploratória dos dados no **PostgreSQL**, permitindo entender a estrutura das tabelas, a integridade dos dados e possíveis padrões.
 
