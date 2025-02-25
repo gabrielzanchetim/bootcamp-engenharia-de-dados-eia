@@ -13,4 +13,4 @@ O **DBT (Data Build Tool)** foi utilizado para transformar os dados no **Snowfla
 📂 [`analysis/`](./code/models/analysis/) – Relatórios agregados para insights.  
 📂 [`tests/`](./code/tests/) – Validações para garantir a integridade dos dados.  
 
-Com essa estrutura, o **DBT** automatiza a transformação dos dados extraídos do **PostgreSQL**, tornando-os prontos para análise no **Snowflake**. 🚀
+Com essa estrutura, o **DBT** automatiza a transformação dos dados extraídos do **PostgreSQL**, tornando-os prontos para análise no **Snowflake**. 
